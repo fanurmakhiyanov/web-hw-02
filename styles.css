@@ -1,9 +1,10 @@
 html, body {
-    background-color: #F9F8F3;
+    background-color: #f9f8f3;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -22,8 +23,18 @@ h2 {
     color: #7E4913;
 }
 
+h3 {
+    font: 100% Bitter;
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #515257;
+    font-style: italic;
+    margin-left: 1.5em;
+    margin-right: 2em;
+}
+
 p {
-    font-family: 'Montserrat', sans-serif;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -36,4 +47,9 @@ a {
   }
   a:hover {
     color: #2d8653;
+  }
+
+  ol, ul {
+    margin-left: 1.5em;
+    margin-right: 2em;
   }
