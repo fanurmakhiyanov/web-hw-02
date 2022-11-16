@@ -21,3 +21,19 @@ h2 {
     font-weight: bold;
     color: #7E4913;
 }
+
+p {
+    font: 100% Montserrat;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+a {
+    text-decoration-color: grey;
+  }
+  a:link {
+    color: #777777;
+  }
+  a:hover {
+    color: #2d8653;
+  }
